@@ -1,0 +1,11 @@
+@media (max-width: 640px) {
+    .community-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 10px;
+    }
+
+    .community-grid div,
+    .community-grid img {
+        height: 160px !important;
+    }
+}
